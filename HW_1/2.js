@@ -10,13 +10,13 @@
 // Здесь пишем решение, данный комментарий необходимо стереть.
 
 // создаём по условию переменную name (userName)
-let userName = 'Uladzimir';
+// let userName = 'Uladzimir';
 
 // создаём переменную admin
-let admin;
+// let admin;
 
 // присваиваем переменной admin значение name
-admin = userName;
+// admin = userName;
 
 // выводим значение переменной admin в консоль
-console.log(`${admin}`);
+// console.log(`${admin}`);
