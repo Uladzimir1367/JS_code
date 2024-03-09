@@ -8,12 +8,12 @@
 сообщение "Размер заработной платы за вычетом налогов равен N."
 */
 
-// function salary(number) {
-//   if (!Number.isFinite(number) && number <= 0) {
-//     console.log("Значение задано неверно");
-//   } else {
-//     return (result = number * 0), 87;
-//   }
-// }
-// const result = salary(+prompt("Введите число"));
-// console.log(`Размер заработной платы за вычетом налогов равен ${result}`);
+function salary(number) {
+  if (!Number.isFinite(number) || number <= 0) {
+    console.log("Значение задано неверно");
+  } else {
+    const result = number * 0.87;
+    console.log(`Размер заработной платы за вычетом налогов равен ${result}`);
+  }
+}
+const result = salary(+prompt("Введите число"));

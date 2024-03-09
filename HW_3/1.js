@@ -8,11 +8,11 @@
 */
 /**
  * // функция возводит число в куб
- * @param {number} number 
- * @returns 
+ * @param {number} number
+ * @returns
  */
-function cub(number) {
-  return number ** 3;
-}
-const result = cub(+prompt("Введите число"));
-console.log(`${result}`);
+// function cub(number) {
+//   return number ** 3;
+// }
+// const result = cub(+prompt("Введите число"));
+// console.log(`${result}`);

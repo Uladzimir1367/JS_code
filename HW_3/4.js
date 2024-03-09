@@ -18,28 +18,28 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// function sum(n1, n2) {
-//   return n1 + n2;
-// }
-// console.log(sum(2, 7));
+function sum(n1, n2) {
+   return n1 + n2;
+}
+console.log(sum(6, 7));
 
-// function difference(n1, n2) {
-//   if (n1 > n2) {
-//     return n1 - n2;
-//   } else if (n2 > n1) {
-//     return n2 - n1;
-//   } else {
-//     return 0;
-//   }
-// }
-// console.log(difference(14, 7));
+function difference(n1, n2) {
+   if (n1 > n2) {
+     return n1 - n2;
+   } else if (n2 > n1) {
+     return n2 - n1;
+   } else {
+     return 0;
+   }
+ }
+ console.log(difference(14, 24));
 
-// function multiplied(n1, n2) {
-//   return n1 * n2;
-// }
-// console.log(multiplied(2, 7));
+function multiplied(n1, n2) {
+   return n1 * n2;
+}
+console.log(multiplied(2, 17));
 
-// function division(n1, n2) {
-//   return n1 * n2;
-// }
-// console.log(division(2, 7));
+function division(n1, n2) {
+   return Math.round((n1 / n2) * 100) / 100;
+}
+console.log(division(32, 57));
